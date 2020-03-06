@@ -3,4 +3,4 @@
 from naan_factory_functions import *
 
 
-print(run_factory(bake_dough(make_dough('water', 'flour'))))
+print(run_factory('water', 'flour'))

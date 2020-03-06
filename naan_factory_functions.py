@@ -25,11 +25,8 @@ def bake_dough(dough):
     else:
         return 'not naan'
 
-def run_factory(naan):
-    if naan == 'naan':
-        return "naan created"
-    else:
-        return "no naan created"
+def run_factory(water, flour):
+    return bake_dough(make_dough(water, flour))
 
 
 
