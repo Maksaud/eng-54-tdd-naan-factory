@@ -57,12 +57,21 @@ usually has 3 phases
 #1
 As a user, I can use the make_dought with water and flour to make dough.
 
-I have writen a code while testing 
+- I have writen a make dough function that takes in 2 arguments
+- I tested the make dough function to make sure that if it is passed water and flour as arguments to make dough
 
 #2
 As a user, I can use the bake_dough to with dough to get naan.
 
+- I have writen a bake_dough function that takes in 2 arguments
+- I tested the bake_dough function to make sure that if make_dough funciton returns dough so bake dough returns naan
+
+
 #3
 As a user, I can use the run_factory with water and flour and get naan.
+
+- I have created a run_factory function and tested if bake_dough function returns naan so that run factory says naan created
+- I ran the factory by calling it
+
 
 ```
